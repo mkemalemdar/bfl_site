@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+{% block title %}{{ post.title }}{% endblock %}
+
+{% block body %}
+  <article class="post-content">
+    <h1>{{ post.title }}</h1>
+    <p>{{ post.content }}</p>
+  </article>
+
+  <section class="comments">
+    <h2>Comments ({{ post.comments|length }})</h2>
+    {% if post.comments %}
+      <ul>
+        {% for c in post.comments %}
+          <li>
+            <strong>{{ c.author }}:</strong> {{ c.text }}
+          </li>
+        {% endfor %}
+      </ul>
+    {% else %}
+      <p>No comments yet.</p>
+    {% endif %}
+  </section>
+
+  <section class="add-comment">
+    <h3>Leave a comment</h3>
+    <form method="post">
+      <label>
+        Your name
+        <input
+          type="text"
+          name="author"
+          class="small-input"
+          placeholder="Anonymous">
+      </label>
+      <label>
+        Your comment
+        <textarea
+          name="text"
+          rows="3"
+          required></textarea>
+      </label>
+      <button type="submit">Post Comment</button>
+    </form>
+  </section>
+
+  <p class="back-link">
+    <a href="{{ url_for('index') }}">← Back to all posts</a>
+  </p>
+{% endblock %}

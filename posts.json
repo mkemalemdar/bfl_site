@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "title": "2",
+    "content": "ye benim siki",
+    "comments": [
+      {
+        "author": "kaç kaç??",
+        "text": "YEDİN BENİM ZİKİAAAAA"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "sabri",
+    "content": "anannamı",
+    "comments": [
+      {
+        "author": "ilyasınmincosu",
+        "text": "sabri ağbuuu"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "ülküyü sikim",
+    "content": "ülkünün allahını siekyiöm",
+    "comments": [
+      {
+        "author": "asd",
+        "text": "sda"
+      },
+      {
+        "author": "ülüknünü aansını bacısnı sikeyim",
+        "text": "ülkü orospu cocugur amına koydumun piçi"
+      },
+      {
+        "author": "zencigotmeme",
+        "text": "ülkü ne aptal aq"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "yip",
+    "content": "ayip la",
+    "comments": []
+  },
+  {
+    "id": 5,
+    "title": "deneme",
+    "content": "Assad",
+    "comments": []
+  },
+  {
+    "id": 6,
+    "title": "Onurun ense",
+    "content": "Bağış topluyoruz makine için",
+    "comments": [
+      {
+        "author": "dust2kartalı",
+        "text": "purna"
+      }
+    ]
+  }
+]
